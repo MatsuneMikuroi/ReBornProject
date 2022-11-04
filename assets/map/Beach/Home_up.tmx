@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="12" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="11">
+ <tileset firstgid="1" source="../Home_interior.tsx"/>
+ <tileset firstgid="11" source="../Home_fournitures.tsx"/>
+ <layer id="1" name="floor" width="12" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+7,7,7,7,7,0,0,7,7,7,7,7,
+7,7,7,7,7,0,0,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7,
+7,7,7,7,7,7,7,7,7,7,7,7
+</data>
+ </layer>
+ <layer id="2" name="wall" width="12" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="fournitures" width="12" height="9">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,
+6,6,6,6,6,6,6,6,6,6,6,6,
+14,15,0,0,0,19,19,0,0,0,0,0,
+21,22,0,0,0,26,26,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="Objects">
+  <object id="1" name="collision" x="79" y="64" width="1" height="16"/>
+  <object id="2" name="collision" x="112" y="64" width="1" height="16"/>
+  <object id="3" name="collision" x="79" y="80" width="34" height="2"/>
+  <object id="4" name="Home_down" x="80" y="79" width="32" height="1"/>
+  <object id="5" name="Home_up" x="80" y="44">
+   <point/>
+  </object>
+  <object id="6" name="collision" x="4" y="48" width="24" height="32"/>
+  <object id="7" name="collision" x="0" y="0" width="192" height="40"/>
+  <object id="8" name="collision" x="192" y="40" width="1" height="104"/>
+  <object id="9" name="collision" x="-1" y="40" width="1" height="104"/>
+  <object id="10" name="collision" x="0" y="144" width="192" height="1"/>
+ </objectgroup>
+</map>
